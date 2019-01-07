@@ -1,0 +1,311 @@
+/*
+	Theme Name: Editorial
+	Theme URI: https://html5up.net/editorial
+	Author: Ashrafuzzaman
+	Author URI: http://ashrafuzzaman.com
+	Description: Editorial is a free html template of html5up.net | @ajlkn.
+	Version: 1.0.0
+	License: Free for personal and commercial use under the CCA 3.0 license
+	License URI: https://html5up.net/license
+	Text Domain: editorial
+	Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+*/
+
+.post-type {
+	width: 45px;
+	height: 45px;
+	display: block;
+	position: absolute;
+	z-index: 9999;
+	left: 10px;
+	top: 10px;
+	text-align: center;
+	line-height: 45px;
+	color: #999;
+	font-size: 30px;
+}
+.posts article .image img {
+	height: auto;
+}
+.image.main img {
+	height: auto;
+}
+.gallery-post-slider {
+	overflow: hidden;
+	border-radius: 0.375em;
+}
+
+.gallery-post-slider img {
+	border-radius: 0.375em;
+	margin: 0 0 2em 0;
+	height: auto;
+}
+.mini-posts article .image img {
+	height: auto;
+}
+.oops {
+	text-align: center;
+}
+section img {
+	max-width: 100%;
+}
+.pageslink a, .pageslink > span, .page-numbers {
+    display: inline-block;
+    padding: 3px 10px;
+    border: 2px solid #F56A6A;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+.pageslink a, .page-numbers {
+	transition: all .5s;
+}
+.pageslink > span, .nav-links > span {
+    background: #F56A6A;
+    color: #fff;
+}
+.pageslink a:hover, .page-numbers:hover {
+	background: #F56A6A;
+	color: #fff !important;
+}
+.pagination{
+	margin: 40px 0;
+}
+.pn-pagi {
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0;
+}
+.page-link{
+	width: 30%;
+	height: auto;
+	display: block;
+	text-align: left;
+}
+.page-link h5 {
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	color: #ddd;
+}
+.page-link a {
+	color: #7f888f;
+	text-transform: uppercase;
+}
+.page-previous a > span {
+	margin-right: 5px;
+}
+.page-next a > span {
+	margin-left: 5px;
+}
+.page-link a:hover {
+	color: #F56A6A;
+}
+.page-previous{
+	float: left;
+}
+.page-next{
+	float: right;
+	text-align: right;
+}
+.single-post section {
+    padding-top: 20px !important;
+}
+
+/* Related Post */
+.related{
+	overflow: hidden;
+	margin: 20px 0;
+	width: 100%;
+}
+.related-post{
+	width: 23.5%;
+	margin-right: 2%;
+	float: left;
+	overflow: hidden;
+}
+.related-post > a{
+	border: 0;
+}
+.related-post img {
+	width: 100%;
+	height: auto;
+}
+.related .related-post:last-child {
+	margin-right: 0;
+}
+.author-box{
+	margin-bottom: 30px;
+}
+.author-details {
+    width: 100%;
+    background: #efefef;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.author-link{
+	width: 15%;
+	float: left;
+	overflow: hidden;
+	padding: 0 15px;
+}
+.author-link img {
+	width: 100%;
+	height: auto;
+	/*border-radius: 50%;*/
+}
+.author-bio{
+	width: 85%;
+	float: left;
+	text-align: left;
+	padding: 0 15px 0 0;
+}
+.author-bio h4{
+	margin-bottom: 5px;
+	text-transform: capitalize;
+}
+.author-bio p {
+	margin-bottom: 0;
+}
+.lined{
+	position: relative;
+	padding-bottom: 8px;
+	margin: 1em 0;
+}
+.lined::after{
+	width: 50px;
+	height: 3px;
+	background: #F56A6A;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	content: '';
+
+}
+
+.post-ctg, .post-tag{
+	/*overflow: hidden;*/
+	margin-bottom: 20px;
+}
+.post-ctg a, .post-tag a{
+	display: inline-block;
+	padding: 2px 8px;
+	background: #F56A6A;
+	border: 1px solid #F56A6A;
+	border-radius: 3px;
+	margin-right: 10px;
+	color: #fff !important;
+	transition: all .5s;
+	font-size: 12px;
+	text-transform: capitalize !important;
+}
+/*.post-tag a{
+	position: relative;
+	border-radius: 0;
+}*/
+
+.post-ctg a:hover {
+	background: #3D4449;
+	border: 1px solid #3D4449;
+	color: #fff !important;
+}
+.single-post section .main h1 {
+	margin-bottom: 20px;
+}
+
+.search-highlight{
+	background: #ff0;
+	font-weight: bold;
+}
+
+/* WP defaults comments template style */
+@media screen and (min-width: 768px){
+	.comments-area .comment-list {
+	    padding-bottom: 2em;
+	}
+}
+.comment-list {
+    padding: 0;
+    line-height: 1.6;
+}
+.comments-area ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.comments-area article {
+    position: relative;
+    padding: .6em 0;
+    margin-bottom: .8em;
+    border-bottom: 1px solid #F4F3EF;
+}
+.comment-meta {
+    text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+	.comment-meta .fn, .comment-meta .says, .comment-metadata, .comment-content {
+	    margin-left: 84px;
+	}
+}
+.comment-meta .comment-author img {
+    display: block;
+    float: left;
+    margin: 0 1.0em 0 0;
+    border-radius: 50%;
+    max-width: 52px;
+}
+.comment-meta .comment-author .fn {
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 0.2em;
+}
+.comment-metadata > a {
+    font-size: 11px;
+    font-weight: 400;
+    color: #C5CAD0;
+    border-bottom: 0;
+}
+.comment-metadata > a:hover{
+	color: #C5CAD0 !important;
+}
+.comment-meta .comment-edit-link{
+	font-size: 11px;
+	margin-left: 5px;
+}
+.comment-content {
+    padding-top: .1em;
+    clear: left;
+}
+.comment-content p {
+    margin: .8em 0 .2em 0;
+    font-size: 0.875em;
+}
+.comment .reply {
+    text-align: right;
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.comments-area ol ol {
+    margin-left: 6%;
+}
+.bypostauthor > article {
+    border-color: #8ACB82;
+    border-bottom-width: 4px;
+}
+.comments-area .says{
+	display: none;
+}
+.comment-respond #cancel-comment-reply-link {
+	color: #8ACB82 !important;
+}
+.comment-respond #cancel-comment-reply-link:hover{
+	color: #65985f !important;
+}
+
+
+
+.wp-caption, .wp-caption-text, .sticky, .screen-reader-text, .gallery-caption, .alignright, .alignleft, .aligncenter{
+	visibility: inherit;
+}
